@@ -1,0 +1,82 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(./islam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin: 5% auto;
+     max-width: 288px;
+     height: 330px;
+     border-radius: 65px;
+     border: 10px solid green;
+     background-color: black;
+position: relative;
+}
+.cont{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 195px;
+    height: 58px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    right: 40px;
+    top: -9px;
+    border: 7px solid green;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+
+.btn-container{
+    position: absolute;
+    right: 15px;
+    top: 45px;
+}
+.increase{
+    border-radius: 50%;
+    background-color: green;
+    padding: 65px;
+    position: absolute;
+    right: 60px;
+    top: 130px;
+
+
+}
+
+.reset{
+   position: relative;
+    background-color: gold;
+    padding: 18px;
+    margin-left: -230px;
+    margin-top: 91px;
+    border-radius: 50%;
+}
+.reset::before{
+    position: absolute;
+    content: 'Reset';
+    top: -30px;
+    left: -10px;
+    color: whitesmoke;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+
+.counter{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
